@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="zuruck_button" layoutX="33.0" layoutY="25.0" mnemonicParsing="false" text="Zurück" />
+      <TextField fx:id="textfeld" layoutX="226.0" layoutY="141.0" promptText="Hier etwas eingeben..." />
+      <Button fx:id="ausgeben_button" layoutX="265.0" layoutY="188.0" mnemonicParsing="false" text="Ausgeben" />
+   </children>
+</AnchorPane>
